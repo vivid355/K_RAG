@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local indexes and generated data
+qdrant_db*/
+parent_store*.json
+markdown_docs/
+.split_tmp/
+
+# Local editor/assistant settings
+.claude/
+.vscode/
+.idea/
+
+# Personal notes and local experiments
+\# 新窗口交接上下文：Agentic RAG 学习项目.md
+新建 文本文档.txt
+mini_rag.py
+mini_rag2.1.py
+mini_rag2备份.py
+test.py
+
+# OS files
+.DS_Store
+Thumbs.db
